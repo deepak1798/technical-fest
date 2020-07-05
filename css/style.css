@@ -1,0 +1,73 @@
+/* YOUR CUSTOM STYLES */
+html,
+body,
+.view {
+    height: 100%;
+}
+body{
+  font-family: cursive;
+}
+/* Navigation*/
+
+.navbar {
+    background-color: transparent;
+}
+
+.scrolling-navbar {
+    -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+    transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+
+.top-nav-collapse {
+    background-color: #2b3f66;
+}
+
+footer.page-footer {
+    background-color: #2b3f66;
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #2b3f66;
+        padding-top: 30px;
+    }
+}
+
+
+
+
+.flex-center {
+    color: #fff;
+}
+
+
+.navbar .btn-group .dropdown-menu a:hover {
+    color: #000 !important;
+}
+.navbar .btn-group .dropdown-menu a:active {
+    color: #fff !important;
+}
+.brand{
+  font-family: 'oswald', cursive;
+  font-size: 20px;
+
+
+}
+/*removing bullets*/
+ul,li{
+  list-style: none;
+  text-decoration: none;
+}
+
+
+#sub{
+  background-color: #1089fa;
+}
+#regModal{
+  background-color: #000;
+}
+.col-md-4{
+  padding-top: 35px;
+}
