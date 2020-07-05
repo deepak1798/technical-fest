@@ -1,0 +1,10 @@
+<?php
+define('dbhost','localhost');
+define('dbname','evento');
+define('dbpswd','');
+define('dbuser','root');
+$dbcon=mysqli_connect(dbhost,dbuser,dbpswd,dbname);
+if(!$dbcon){
+  die("error".mysqli_error());
+} 
+ ?>
